@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="{{ site.baseurl }}/main.css">
+    <meta name="description" content="Gestalten in Code">
+    <meta name="author" content="Fabian Morón Zirfas">
+    <title>{{page.title}}</title>
+  </head>
+  <body>
+      <section>
+      <div id="main" class="project">
+        {% for img in page.images %}
+          <img src="./images/{{img}}" alt="">
+        {% endfor %}
+        <div> {{page.summary}}</div>
+        <div>
+          {{content}}
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer>
+</footer>
+</body>
+</html>
