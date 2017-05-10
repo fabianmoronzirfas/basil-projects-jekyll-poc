@@ -9,7 +9,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 {% for page in site.pages %}
 {% if page.type == 'project' %}
-[{{page.title}}]({{page.url}})
+[{{page.title}}]({{site.baseurl}}{{page.url}})
 {% endif %}
 {% endfor %}
 
