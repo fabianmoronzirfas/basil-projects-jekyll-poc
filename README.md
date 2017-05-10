@@ -46,6 +46,19 @@ This is the only point where errors might occur. If something is typed wrong it 
     summary: "This is a short summary of my funky basil.js Project"
     ---
 
+Of course the above yaml header has lots of comments. A boiled down version would look like this:  
+
+    ---
+    layout: project
+    title: "This is my funky Basil.js project"
+    type: project
+    images:
+        - "boom.png"
+        - "canvas.png"
+        - "foobah.png"
+    summary: "This is a short summary of my funky basil.js Project"
+    ---
+
 To be continued (eventually)
 
 ## License

@@ -1,8 +1,6 @@
 ---
-# comment
 layout: project
 title: "This is my funky Basil.js project"
-source-file: "index.js"
 type: project
 images:
     - "boom.png"
